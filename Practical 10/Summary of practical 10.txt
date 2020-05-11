@@ -1,0 +1,29 @@
+﻿# -*- coding: utf-8 -*-
+"""
+Created on Mon May 11 20:26:01 2020
+@author: 92801
+"""
+In my practical, I withdrew gene sequence from mouse S0D2, human S0D2 gene and a random sequence and place them into empty list respectively. Every single amino acid is one element in the lists. Then I write the code based on the hint given by instructor to check differences between two sequences each time. I use BLOSUM score to show the results. The BLOSUM score in mouse and human S0D2 gene comparison is 23. That in mouse gene and random sequence comparison is 209. Whilst the BLOSUM score in human gene and random sequence comparison is 210.
+We can see that the difference of S0D2 protein sequence between human and mice is way smaller than that in either compared with the random sequence. Human and mouse are all mammal. It is reasonable that they share lots of common in protein encoded by S0D2 gene. However, differences still exist, which is probably on account of human is in higher status in evolution. The reason why there’s huge difference between either human or mouse compared to random sequence may be the protein that random sequence represents is not encoded by the S0D2 gene or this species is far not related to mammals.
+
+Appendix1: Sequence of human, mouse S0D2 protein and random sequence:
+•Sequence	for	human	SOD2	protein	(NP_000627.2)
+>SOD2_human	(NP_000627.2)
+MLSRAVCGTSRQLAPVLAYLGSRQKHSLPDLPYDYGALEPHINAQIMQLHHSKHHAAYV
+NNLNVTEEKYQEALAKGDVTAQIALQPALKFNGGGHINHSIFWTNLSPNGGGEPKGELL
+EAIKRDFGSFDKFKEKLTAASVGVQGSGWGWLGFNKERGHLQIAACPNQDPLQGTTGLI
+PLLGIDVWEHAYYLQYKNVRPDYLKAIWNVINWENVTERYMACKK
+
+•Sequence	of	a	mouse	SOD2	protein	(NP_038699.2)
+>SOD2_mouse	(NP_038699.2)
+MLCRAACSTGRRLGPVAGAAGSRHKHSLPDLPYDYGALEPHINAQIMQLHHSKHHAAY
+VNNLNATEEKYHEALAKGDVTTQVALQPALKFNGGGHINHTIFWTNLSPKGGGEPKGE
+LLEAIKRDFGSFEKFKEKLTAVSVGVQGSGWGWLGFNKEQGRLQIAACSNQDPLQGTTG
+LIPLLGIDVWEHAYYLQYKNVRPDYLKAIWNVINWENVTERYTACKK
+
+•A	random	sequence	
+>RandomSeq
+WNGFSEWWTHEVDYNQKLTIENNQRPKIHEHEQWGLRQSPPPPKLCCPTCQMCERM
+RHQNRFAPLMEVGCRCMCWFHDWWVISVGTWLHTVIMYMMWPKRFHHNECPKACF
+RTTYTRKNHHALYWMLFEMCCYDQDVVWSKTHIFTTVRDIEVYVEQVFFIWGPLCHV
+AIACYEPVKTIRRRIPMYLCRHCIRGDNSYLLACCSIIYYFYHHMSYYGVLDIL
