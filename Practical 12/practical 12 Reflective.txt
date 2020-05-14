@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 14 21:18:55 2020
+
+@author: 92801
+"""
+
+  For the first SIR model, I seperate the whole population into three groups according to the
+instruction: susceptible group within which people are assumed to be healthy but risk at being 
+infected with the disease, infected group where people catch the disease but could be treated and 
+recoverd group that consists of people recover from the infectious disease.
+  The possibility of infection upon contact is defined as B whose value is 0.3 while that of recovery
+is y that equals to 0.05. Specific arrays are created to keep tract of the change of the three groups
+as time moves on.
+  The time loop is set to be 1000 and at each point, the susceptible group could be infected while
+infected population could recover. The data of people left in susceptible group, staying infected or
+done recovery is recorded to the arrays at each point.
+  Then we introduce matplotlib to plot our data and present the results in line chart.
+  I work out the codes in this part by my own based on the hints given by the instructor which were
+very informative and helped me a lot. And this is the part where we could apply what we learned about
+python previously to address a problem.
+
+  For the second Vaccination model, we are required to test the amount and change of infected group
+in different situation where the percentage of people who acquire immunity with vaccine differs. I 
+worked out the code based on the code got in the first task. However, I could figure out a better way
+so I just create 10 loops to simulate different percentage of vaccination. It is very stupid and it 
+takes some time to run the programme. I think I didn't do a good job at this part. My though is to
+define a function as a general way to fulfill this purpose. I would continue trying.
+
+  For the third mission, we need to simulation the spread of infection geographically. We assume that
+patients can only pass on the infection to theie neighbours. Well, the hints in this part are excellent
+So it is easy for me to make it work and get the heat map representing the spread situation. I learn
+lots of new programming knowledge in this session, I learn how to create the array, how to locate one
+specific spot you want, how to generate points with specific condition, how to do with the neighbour
+and what to notice. I did learn a lot
