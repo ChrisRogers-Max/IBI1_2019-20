@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May 15 00:48:50 2020
+
+@author: 92801
+"""
+
+  Well, when I get started, it's not that easy but not difficult as well. Because I was not familiar 
+with the Gitkraken. I had no idea where the commit button is, I did't know where to switch to the
+branch page. But with the help of the instruction and tutor, I quickly worked them out. And there's
+no problem on this anymore. I learnt to edit the message, commit my changed. I knew more about version
+control: how to create and merge branches.I also learnt how to exchange files between github 
+account and gitkrake by using Fork and Push.
+  I think working with the github pages is a little chanleging for me. Because I am a little confused 
+with the page and kind of lost the direction.
+
+
