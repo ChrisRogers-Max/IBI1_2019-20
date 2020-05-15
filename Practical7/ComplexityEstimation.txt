@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May 15 09:29:00 2020
+
+@author: 92801
+"""
+
+for the definition of alsit line:
+numbers in the amount of N are randomly chosen
+O(n) where n=N
+
+the for list which change the range of randomly generated numeber:
+still O(n)
+
+the process of itertolls permutaion including pick up 2 or 3 numbers:
+all lenear process:
+O(n)
+
+To summerize, O(n)+O(n)+O(n)+O(n)=O(n).
+So the complexity of the programme would increase with the grow amount of input in a lenear way
