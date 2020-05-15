@@ -16,9 +16,16 @@ Created on Sun Mar 22 16:20:33 2020
 import random
 import sys
 n=random.randint(0,sys.maxsize)
+#Use N to keep tract of the change made each time
+N=[n]
+
+#Create the loop: if n is odd, then n=n-1 to make it even. When n is even, continte divide n by 2 until
+#n hits 1 for the first time which is also time to break the loop.
 while n!=1:
     if n%2==0:
         n=n/2
     else:
         n=n-1
-print(n)
+    N.append(int(n))
+#To display the sequence
+print(N)
