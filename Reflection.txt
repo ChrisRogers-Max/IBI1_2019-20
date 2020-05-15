@@ -1,0 +1,9 @@
+              Reflective Report
+In the IBI course, I learnt a lot:
+I learned how to perform version control so that I could edit the code in several different ways based on one origin draft. It is quite useful. It happened to me that I lost my files just because I was not completely aware of what a specific method can do. With version control, I could move on writing the code with safety guarantee. 
+I learn how to conduct basic python programming: I know what variable is. It could be a specific value or a string. I learn how to manipulate list[]. I learn how to create loops for special condition. 
+I learn how to draw graphs in python. How to plot data in and set the parameter for the graphs. How to import library and save the image I generate.
+I know how to define a function which make it convenience with reuse.
+I learn how to estimate the complexity of a given code by algorithm.
+I learn how to operate XML file.
+I learn how to use online referance to help me build up the idea to solve problem
